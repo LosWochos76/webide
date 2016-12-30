@@ -4,6 +4,6 @@ WebIDE is a simple browser-based environment to write, compile and interactively
 
 ## Howto install and run
 
-Step 1: clone the repository.
-Step 2: npm install.
-Step 3: node app.js
+- Step 1: clone the repository.
+- Step 2: npm install.
+- Step 3: node app.js
