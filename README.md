@@ -1,6 +1,8 @@
 # webide
 
-WebIDE is a simple browser-based environment to write, compile and interactively execute C/C++ programs. It is bases on node.js, xterm.js and the Ace code editor. Be careful: Do not expose the service to the public as is due to security issues. It is made to be hosted inside of a docker-image.
+WebIDE is a simple browser-based environment to write, compile and interactively execute C/C++ programs. It is based on [node.js](https://nodejs.org), [xterm.js](https://github.com/sourcelair/xterm.js/) and the [Ace code editor](https://ace.c9.io). 
+
+Be careful: Do not expose the service to the public as is due to security issues. The whole environment is made to be hosted inside of a docker-image.
 
 ## Howto install and run
 
