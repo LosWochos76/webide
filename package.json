@@ -1,0 +1,34 @@
+{
+  "name": "webide",
+  "version": "1.0.0",
+  "description": "A minimal browser-based IDE to write, compile and interactively run C/C++ based programs.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LosWochos76/webide.git"
+  },
+  "keywords": [
+    "IDE",
+    "browser",
+    "C",
+    "C++",
+    "xterm.js"
+  ],
+  "author": "Alexander Stuckenholz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LosWochos76/webide/issues"
+  },
+  "homepage": "https://github.com/LosWochos76/webide#readme",
+  "dependencies": {
+    "ace-builds": "^1.2.5",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-ws": "^2.0.0",
+    "pty.js": "^0.3.1",
+    "xterm": "^2.2.3"
+  }
+}

@@ -1,0 +1,31 @@
+body {
+    font-family: helvetica, sans-serif, arial;
+    font-size: 0.8em;
+    color: #111;
+}
+
+h1 {
+    text-align: center;
+}
+
+#editor {
+    padding: 2px;
+    width: 100%;
+    height: 350px;
+}
+
+#terminal-container {
+    padding: 2px;
+    width: 100%;
+    height: 100px;
+}
+
+#terminal-container .terminal {
+    background-color: #111;
+    color: #fafafa;
+    padding: 2px;
+}
+
+#terminal-container .terminal:focus .terminal-cursor {
+    background-color: #fafafa;
+}

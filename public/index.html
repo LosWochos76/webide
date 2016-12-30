@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Minimal Web-IDE for C/C++</title>
+        <link rel="stylesheet" href="xterm.css" />
+        <link rel="stylesheet" href="style.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="xterm.js" ></script>
+        <script src="addons/attach/attach.js" ></script>
+        <script src="addons/fit/fit.js" ></script>
+    </head>
+    <body>
+        <button onclick="upload()">Save</button>
+        <button onclick="compile()">Compile</button>
+        <button onclick="run()">Run</button>
+
+        <div id="editor"></div>
+        <script src="ace.js" type="text/javascript" charset="utf-8"></script>
+
+        <div id="terminal-container"></div>
+        <script src="main.js"></script>
+    </body>
+</html>
